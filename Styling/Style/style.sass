@@ -1,0 +1,176 @@
+$lightGrey: #ddd4f1
+$eggshell: #f0f1f5
+$darkGrey: #605f82
+$noire: #1e1d24
+$amethyst: #b999cb
+$mintGreen: #99cbb9
+$errorRed: darken(#ff9494, 20%)
+$Bungee: 'Bungee', cursive
+$BungeeInline: 'Bungee Inline', cursive
+$PressStart: 'Press Start 2P', cursive
+$JosefinSans: 'Josefin Sans', sans-serif
+$important: !important
+
+// Global Styling
+.lightGrey
+	background-color: $lightGrey
+
+.eggshell
+	background-color: $eggshell
+
+.darkGrey
+	background-color: $darkGrey
+
+.noire
+	background-color: $noire
+
+.amethyst
+	background-color: $amethyst
+
+.mintGreen
+	background-color: $mintGreen
+
+.textAlignCenter
+	text-align: center
+
+.defaultText
+	font-family: $Bungee
+
+.bulkText
+	font-family: $JosefinSans
+
+.errorText
+	font-family: $JosefinSans
+	color: $errorRed
+
+.hiddenElement
+	display: none
+
+@mixin setText($fontFamily, $fontSize)
+	font-family: $fontFamily
+	font-size: $fontSize
+	color: $noire
+
+@mixin roundObject($radius)
+	border-radius: $radius
+
+@mixin transition($time)
+	-webkit-transition: $time
+	-moz-transition: $time
+	-ms-transition: $time
+	-o-transition: $time
+	transition: $time
+
+[ng\:cloak], [ng-cloak], .ng-cloak
+	display: none $important
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+	-webkit-appearance: none
+	-moz-appearance: none
+	appearance: none
+	margin: 0
+
+// Header Styling
+.header
+	border: solid
+	border-width: 1vw 0 1vw 0
+	border-color: $noire
+
+.headerColumn
+	padding: 4% 3% 4% 3%
+
+.headerSpacer
+	padding-top: 1%
+
+#headerText
+	@include setText($BungeeInline, 3.9em)
+	margin-top: 4%
+
+// Button Styling
+.roundedButton, .amethystButton, .mintGreenButton
+	@include roundObject(10px)
+	@include setText($PressStart, auto)
+	@include transition(.3s)
+	height: 6em
+	width: 15vw
+	border: solid
+	border-width: 3px
+	border-color: $noire
+	margin-top: 1vh
+
+.amethystButton
+	background-color: $amethyst
+
+.amethystButton:hover
+	background-color: darken($amethyst, 10%)
+	border-color: $eggshell
+
+.mintGreenButton
+	background-color: $mintGreen
+
+.mintGreenButton:hover
+	background-color: darken($mintGreen, 10%)
+	border-color: $eggshell
+
+// Content Styling
+.contentHeaderRow
+	min-height: 9vh
+
+.contentHeader
+	@include setText($Bungee, 3em)
+	margin: 2.5vh 0 0 1vw
+
+.headerDivider
+	border: solid
+	border-width: 0 0 2px 0
+	border-color: lighten($darkGrey, 30%)
+
+.contentSpacer
+	margin: 3vh 0 0 0
+
+.paragraphText
+	font-family: $JosefinSans
+	font-size: 1.5em
+	margin: 0 0 0 1vw
+
+.pageContent
+	height: 60vh
+
+.moduleContainer
+	height: 100%
+	border: solid
+	border-width: 2px
+	border-color: $noire
+	border-radius: 10px
+	margin: 3vh 3vw 0 2vw
+	background-color: $eggshell
+
+.module
+	margin: 2vh 2vw 2vh 2vw
+	padding: 0 0 5vh 0
+
+.module input
+	height: 3vh
+	min-width: 10vw
+	border: solid
+	border-width: 1px
+	border-color: $noire
+	border-radius: 2px
+	padding: 1vh .5vw 1vh .5vw
+
+.module input[type=submit]
+	width: auto
+	min-width: auto
+	font-family: $PressStart
+	border: solid
+	padding: 1vh 1vw 3vh 1vw
+	background-color: $mintGreen
+
+.module input[type=submit]:disabled
+	background-color: gray
+
+// Body Styling
+body
+	overflow-x: hidden
+	background-color: $lightGrey $important

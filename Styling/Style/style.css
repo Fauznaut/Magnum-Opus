@@ -1,0 +1,155 @@
+.lightGrey {
+  background-color: #ddd4f1; }
+
+.eggshell {
+  background-color: #f0f1f5; }
+
+.darkGrey {
+  background-color: #605f82; }
+
+.noire {
+  background-color: #1e1d24; }
+
+.amethyst {
+  background-color: #b999cb; }
+
+.mintGreen {
+  background-color: #99cbb9; }
+
+.textAlignCenter {
+  text-align: center; }
+
+.defaultText {
+  font-family: "Bungee", cursive; }
+
+.bulkText {
+  font-family: "Josefin Sans", sans-serif; }
+
+.errorText {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ff2e2e; }
+
+.hiddenElement {
+  display: none; }
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; }
+
+.header {
+  border: solid;
+  border-width: 1vw 0 1vw 0;
+  border-color: #1e1d24; }
+
+.headerColumn {
+  padding: 4% 3% 4% 3%; }
+
+.headerSpacer {
+  padding-top: 1%; }
+
+#headerText {
+  font-family: "Bungee Inline", cursive;
+  font-size: 3.9em;
+  color: #1e1d24;
+  margin-top: 4%; }
+
+.roundedButton, .amethystButton, .mintGreenButton {
+  border-radius: 10px;
+  font-family: "Press Start 2P", cursive;
+  font-size: auto;
+  color: #1e1d24;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  height: 6em;
+  width: 15vw;
+  border: solid;
+  border-width: 3px;
+  border-color: #1e1d24;
+  margin-top: 1vh; }
+
+.amethystButton {
+  background-color: #b999cb; }
+
+.amethystButton:hover {
+  background-color: #a277ba;
+  border-color: #f0f1f5; }
+
+.mintGreenButton {
+  background-color: #99cbb9; }
+
+.mintGreenButton:hover {
+  background-color: #77baa2;
+  border-color: #f0f1f5; }
+
+.contentHeaderRow {
+  min-height: 9vh; }
+
+.contentHeader {
+  font-family: "Bungee", cursive;
+  font-size: 3em;
+  color: #1e1d24;
+  margin: 2.5vh 0 0 1vw; }
+
+.headerDivider {
+  border: solid;
+  border-width: 0 0 2px 0;
+  border-color: #b3b3c7; }
+
+.contentSpacer {
+  margin: 3vh 0 0 0; }
+
+.paragraphText {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 0 1vw; }
+
+.pageContent {
+  height: 60vh; }
+
+.moduleContainer {
+  height: 100%;
+  border: solid;
+  border-width: 2px;
+  border-color: #1e1d24;
+  border-radius: 10px;
+  margin: 3vh 3vw 0 2vw;
+  background-color: #f0f1f5; }
+
+.module {
+  margin: 2vh 2vw 2vh 2vw;
+  padding: 0 0 5vh 0; }
+
+.module input {
+  height: 3vh;
+  min-width: 10vw;
+  border: solid;
+  border-width: 1px;
+  border-color: #1e1d24;
+  border-radius: 2px;
+  padding: 1vh 0.5vw 1vh 0.5vw; }
+
+.module input[type=submit] {
+  width: auto;
+  min-width: auto;
+  font-family: "Press Start 2P", cursive;
+  border: solid;
+  padding: 1vh 1vw 3vh 1vw;
+  background-color: #99cbb9; }
+
+.module input[type=submit]:disabled {
+  background-color: gray; }
+
+body {
+  overflow-x: hidden;
+  background-color: #ddd4f1 !important; }
+
+/*# sourceMappingURL=style.css.map */
