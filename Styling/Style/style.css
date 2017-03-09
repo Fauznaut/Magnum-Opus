@@ -116,12 +116,13 @@ input[type=number]::-webkit-outer-spin-button {
   height: 60vh; }
 
 .moduleContainer {
-  height: 100%;
+  height: auto;
   border: solid;
   border-width: 2px;
   border-color: #1e1d24;
   border-radius: 10px;
   margin: 3vh 3vw 0 2vw;
+  padding: 0 0 10vh 0;
   background-color: #f0f1f5; }
 
 .module {
@@ -141,7 +142,6 @@ input[type=number]::-webkit-outer-spin-button {
   width: auto;
   min-width: auto;
   font-family: "Press Start 2P", cursive;
-  border: solid;
   padding: 1vh 1vw 3vh 1vw;
   background-color: #99cbb9; }
 
