@@ -44,11 +44,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 .header {
   border: solid;
-  border-width: 1vw 0 1vw 0;
+  border-width: 10px 0 10px 0;
   border-color: #1e1d24; }
 
 .headerColumn {
-  padding: 4% 3% 4% 3%; }
+  padding: 4%; }
 
 .headerSpacer {
   padding-top: 1%; }
@@ -58,6 +58,9 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 3.9em;
   color: #1e1d24;
   margin-top: 4%; }
+
+.footerContainer {
+  background-color: #bfaee4; }
 
 .roundedButton, .amethystButton, .mintGreenButton {
   border-radius: 10px;
@@ -90,6 +93,9 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #77baa2;
   border-color: #f0f1f5; }
 
+.contentContainer {
+  margin-bottom: 2vh; }
+
 .contentHeaderRow {
   min-height: 9vh; }
 
@@ -121,7 +127,7 @@ input[type=number]::-webkit-outer-spin-button {
   border-width: 2px;
   border-color: #1e1d24;
   border-radius: 10px;
-  margin: 3vh 3vw 0 2vw;
+  margin: 3vh 3vw 2vh 2vw;
   padding: 0 0 10vh 0;
   background-color: #f0f1f5; }
 
