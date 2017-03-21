@@ -1,21 +1,11 @@
 #changeMachineSubmit {
   margin: 1vh 0 0 0; }
 
-.changeMachineStats {
-  height: 15vh;
-  width: auto;
+.bill {
   border: solid;
   border-width: 2px;
-  border-color: #1e1d24;
-  border-radius: 10px;
-  margin: 2vh 50vw 0 0;
-  background-color: white; }
-
-.bill {
   width: 80px;
   height: 35px;
-  border: solid;
-  border-width: 2px;
   border-color: #548139;
   border-radius: 2px;
   background-color: #85bb65;
@@ -24,10 +14,10 @@
   padding: 7px 0 0 0; }
 
 .quarter {
-  width: 45px;
-  height: 45px;
   border: solid;
   border-width: 2px;
+  width: 45px;
+  height: 45px;
   border-color: #99a8a2;
   border-radius: 22.5px;
   background-color: #d0d7d4;
@@ -36,10 +26,10 @@
   padding: 10px 0 0 0; }
 
 .dime {
-  width: 35px;
-  height: 35px;
   border: solid;
   border-width: 2px;
+  width: 35px;
+  height: 35px;
   border-color: #acc5ba;
   border-radius: 17.5px;
   background-color: #e8efec;
@@ -48,10 +38,10 @@
   padding: 6px 0 0 0; }
 
 .nickel {
-  width: 40px;
-  height: 40px;
   border: solid;
   border-width: 2px;
+  width: 40px;
+  height: 40px;
   border-color: #848e89;
   border-radius: 20px;
   background-color: #b9bfbc;
@@ -60,10 +50,10 @@
   padding: 8px 0 0 0; }
 
 .penny {
-  width: 37px;
-  height: 37px;
   border: solid;
   border-width: 2px;
+  width: 37px;
+  height: 37px;
   border-color: #68411d;
   border-radius: 18.5px;
   background-color: #b87333;
