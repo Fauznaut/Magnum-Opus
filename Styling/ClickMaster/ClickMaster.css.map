@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,oBAAoB;EAChB,MAAM,EAAE,SAAS;EACjB,WAAW,EAAE,eAAe;EAC5B,UAAU,EAAE,IAAI;;AAEpB,gBAAgB;EACZ,OAAO,EAAE,OAAO",
+"sources": ["ClickMaster.sass"],
+"names": [],
+"file": "ClickMaster.css"
+}
