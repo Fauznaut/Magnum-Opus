@@ -19,7 +19,7 @@
 	<div class="container-fluid contentContainer">
 		<div class="row">
 			<?php include 'Static_Elements/navbar.php';?>
-			<div class="col-lg-10 pageContent">
+			<div id="pageContent" class="col-lg-10 pageContent hiddenElement">
 				<div class="row contentHeaderRow">
 					<div class="col-lg-12">
 						<p id="sectionTitle" class="contentHeader hiddenElement">Change Machine</p>

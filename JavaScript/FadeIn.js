@@ -1,3 +1,4 @@
 $(document).ready(function(){
-	$('#sectionTitle').fadeIn(1000);
+	$('#pageContent').fadeIn(1000);
+	$('#sectionTitle').fadeIn(2000);
 });

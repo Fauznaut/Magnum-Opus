@@ -26,7 +26,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<hr class="headerDivider">
+						<hr id="contentHeader" class="headerDivider">
 					</div>
 				</div>
 				<div class="row">
